@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jayashree</h1>
+        <p>Aspiring Web Developer</p>
+    </header>
+
+    <section id="about">
+        <img src="profile.jpg" alt="My Photo">
+        <h2>About Me</h2>
+        <p>I am a passionate web development student skilled in HTML and CSS. I love creating responsive websites.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Portfolio Website, Landing Page, Calculator</p>
+    </section>
+
+    <section id="resume">
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: jayashree@example.com</p>
+        <p>Phone: 6380208157</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Jayashree. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
