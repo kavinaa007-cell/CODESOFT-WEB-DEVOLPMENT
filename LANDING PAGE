@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Your Success Starts Here</p>
+    </header>
+
+    <section class="features">
+        <div>
+            <h2>Creative Design</h2>
+            <p>Beautiful and modern designs.</p>
+        </div>
+        <div>
+            <h2>Responsive</h2>
+            <p>Works on all devices.</p>
+        </div>
+        <div>
+            <h2>Fast Performance</h2>
+            <p>Optimized for speed.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact us: info@example.com</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: blue;
+    color: white;
+    padding: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.features div {
+    border: 1px solid gray;
+    padding: 20px;
+    width: 30%;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
